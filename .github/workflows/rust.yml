@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build
+    - name: DragMe
       run: cargo build @params
     - name: Run tests
       run: cargo test @params
